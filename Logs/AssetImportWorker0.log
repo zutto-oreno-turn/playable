@@ -1,11 +1,11 @@
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kotaro36" (connect: 0.00s, validation: 0.01s, handshake: 1.28s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kotaro36" (connect: 0.00s, validation: 0.01s, handshake: 1.12s)
 Entitlement-based licensing initiated
 [LicensingClient] Licenses updated successfully
 
-LICENSE SYSTEM [2021126 23:37:35] Next license update check is after 2020-10-07T13:12:25
+LICENSE SYSTEM [2021127 22:58:14] Next license update check is after 2020-10-07T13:12:25
 
 
-LICENSE SYSTEM [2021126 23:37:35] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+LICENSE SYSTEM [2021127 22:58:14] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
 Built from '2020.1/staging' branch; Version is '2020.1.17f1 (9957aee8edc2) revision 10049454'; Using compiler version '192227905'; Build Type 'Release'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 12247 MB
 [Licensing::Module] Serial number assigned to: "SC-ZM2Q-CRV8-Q3JY-6853-XXXX"
@@ -23,11 +23,11 @@ D:/Github.com/zutto-oreno-turn/playable
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56582
+63469
 Successfully changed project path to: D:/Github.com/zutto-oreno-turn/playable
 D:/Github.com/zutto-oreno-turn/playable
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 133.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 135.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.1.17f1 (9957aee8edc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Resources/UnitySubsystems
@@ -43,38 +43,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002977 seconds.
+Registered in 0.002744 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 120.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 118.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.045 seconds
+- Completed reload, in  1.678 seconds
 Registering precompiled user dll's ...
-Registered in 0.476762 seconds.
+Registered in 0.227725 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 133.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 134.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 348ms
+TypeManager.Initialize took: 347ms
 Mono: successfully reloaded assembly
-- Completed reload, in  4.832 seconds
+- Completed reload, in  3.486 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4672 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 182.0 MB.
 System memory in use after: 180.6 MB.
 
-Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 5018.
-Total: 7.302800 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.230700 ms MarkObjects: 5.546600 ms  DeleteObjects: 0.989700 ms)
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 5020.
+Total: 6.756400 ms (FindLiveObjects: 0.608700 ms CreateObjectMapping: 0.276800 ms MarkObjects: 4.984500 ms  DeleteObjects: 0.884100 ms)
 
 ========================================================================
 Received Import Request.
@@ -82,41 +82,44 @@ Received Import Request.
   artifactKey: Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
 Start importing Assets/Playable/Scenes/Test.unity using Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
 Loaded scene 'Assets/Playable/Scenes/Test.unity'
-	Deserialize:            3.745 ms
-	Integration:            4.985 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       27.133 ms
-	Total Operation Time:   35.866 ms
- -> (target hash: '634001c41ac4bf842fd81c5d615fc066') in 0.122203 seconds
-  Import took 0.134946 seconds .
+	Deserialize:            23.331 ms
+	Integration:            5.220 ms
+	Integration of assets:  0.090 ms
+	Thread Wait Time:       20.041 ms
+	Total Operation Time:   48.682 ms
+ -> (target hash: '40b361cf9b3d18d917a32d01eb219186') in 0.149374 seconds
+  Import took 0.207637 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.259797 seconds.
+  Time since last request: 0.130356 seconds.
   path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
   artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
 Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
 Loaded scene 'Assets/Playable/Scenes/Test.unity'
-	Deserialize:            1.495 ms
-	Integration:            0.599 ms
-	Integration of assets:  0.006 ms
-	Thread Wait Time:       36.703 ms
-	Total Operation Time:   38.802 ms
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-The gameobject Directional Light has a directional light using shadow mapping but does not have a AutoMovingDirectionalLight component. The AutoMovingDirectionalLight component will automatically update the directional light's position and size based on its camera frustrum for shadow mapping. Please add a AutoMovingDirectionalLight component
+	Deserialize:            3.274 ms
+	Integration:            0.935 ms
+	Integration of assets:  0.076 ms
+	Thread Wait Time:       31.025 ms
+	Total Operation Time:   35.311 ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Exported Asset: 0f9fd9960d4e33f55a3f15a061803a8d = Assets/Playable/Sprites/ohara_512.png
 UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:41)
 UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:LogWarning(Object)
-Unity.TinyConversion.LightConversion:<OnUpdate>b__0_0(Light) (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Rendering.Authoring\ConvertLight.cs:45)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Image2D.Authoring\ConvertTexture2DAsset.cs:100)
 Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230)
-Unity.TinyConversion.LightConversion:OnUpdate() (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Rendering.Authoring\ConvertLight.cs:20)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Image2D.Authoring\ConvertTexture2DAsset.cs:98)
 Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
 Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472)
 Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
 Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
-Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:151)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:168)
 Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
 Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
 Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
@@ -142,13 +145,28 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
@@ -157,7 +175,16 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
@@ -166,195 +193,42 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
- -> (target hash: '6340a2418196e4dc9c75e6a3ab4af800') in 2.409899 seconds
-  Import took 2.426492 seconds .
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '1881def090c7a9e916c69f3846e1fef3') in 2.673476 seconds
+  Import took 2.708837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.024226 seconds.
+  Time since last request: 40.459450 seconds.
   path: Assets/Playable/Scenes/Test.unity
   artifactKey: Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
 Start importing Assets/Playable/Scenes/Test.unity using Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
 Loaded scene 'Assets/Playable/Scenes/Test.unity'
-	Deserialize:            1.157 ms
-	Integration:            0.439 ms
+	Deserialize:            1.250 ms
+	Integration:            0.442 ms
 	Integration of assets:  0.002 ms
-	Thread Wait Time:       40.783 ms
-	Total Operation Time:   42.381 ms
- -> (target hash: '7ad6eb9a5d8684c12d604fdd7f82f703') in 0.061561 seconds
-  Import took 0.075168 seconds .
+	Thread Wait Time:       38.459 ms
+	Total Operation Time:   40.153 ms
+ -> (target hash: '949f46778e2028d4fdb95a53a212f929') in 0.073769 seconds
+  Import took 0.117961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.092622 seconds.
+  Time since last request: 0.125919 seconds.
   path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
   artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
 Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
 Loaded scene 'Assets/Playable/Scenes/Test.unity'
-	Deserialize:            0.929 ms
-	Integration:            0.538 ms
+	Deserialize:            0.937 ms
+	Integration:            1.122 ms
 	Integration of assets:  0.003 ms
-	Thread Wait Time:       36.604 ms
-	Total Operation Time:   38.074 ms
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
-Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
-(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
-
- -> (target hash: 'c0f32202abcd81fa38ece123c6a7372a') in 0.204018 seconds
-  Import took 0.220609 seconds .
-
-========================================================================
-Received Prepare
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002956 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 153.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 340ms
-Mono: successfully reloaded assembly
-- Completed reload, in  3.095 seconds
-Registering precompiled user dll's ...
-Registered in 0.246819 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 569ms
-Mono: successfully reloaded assembly
-- Completed reload, in  5.193 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.2 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5031.
-Total: 8.396300 ms (FindLiveObjects: 0.547500 ms CreateObjectMapping: 0.251900 ms MarkObjects: 6.390400 ms  DeleteObjects: 1.205000 ms)
-
-========================================================================
-Received Prepare
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003745 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 159.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 886ms
-Mono: successfully reloaded assembly
-- Completed reload, in  6.188 seconds
-Registering precompiled user dll's ...
-Registered in 0.350079 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 410ms
-Mono: successfully reloaded assembly
-- Completed reload, in  4.493 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.2 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5039.
-Total: 8.674800 ms (FindLiveObjects: 0.959400 ms CreateObjectMapping: 0.280000 ms MarkObjects: 5.959400 ms  DeleteObjects: 1.474900 ms)
-
-========================================================================
-Received Prepare
-Reloading mono domain
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003370 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 469ms
-Mono: successfully reloaded assembly
-- Completed reload, in  4.390 seconds
-Registering precompiled user dll's ...
-Registered in 0.321916 seconds.
-Platform modules already initialized, skipping
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 342ms
-Mono: successfully reloaded assembly
-- Completed reload, in  4.084 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.2 MB.
-System memory in use after: 94.0 MB.
-
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5047.
-Total: 7.943700 ms (FindLiveObjects: 0.552200 ms CreateObjectMapping: 0.249600 ms MarkObjects: 6.112200 ms  DeleteObjects: 1.028700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 614.844419 seconds.
-  path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
-  artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
-Loaded scene 'Assets/Playable/Scenes/Test.unity'
-	Deserialize:            3.481 ms
-	Integration:            2.251 ms
-	Integration of assets:  0.007 ms
-	Thread Wait Time:       30.038 ms
-	Total Operation Time:   35.777 ms
+	Thread Wait Time:       26.895 ms
+	Total Operation Time:   28.957 ms
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
@@ -379,10 +253,22 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
@@ -391,7 +277,16 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
@@ -400,7 +295,772 @@ Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sc
 Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
 (Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
 
- -> (target hash: '6fab2afbaee26991a54cb075e5737121') in 2.092244 seconds
-  Import took 2.105689 seconds .
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: 'bd776170176bf7e4fd4bf9a610becb18') in 0.228472 seconds
+  Import took 0.274806 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002912 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 266.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 353ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.968 seconds
+Registering precompiled user dll's ...
+Registered in 0.260471 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 498ms
+Mono: successfully reloaded assembly
+- Completed reload, in 12.771 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5036.
+Total: 8.750500 ms (FindLiveObjects: 0.643100 ms CreateObjectMapping: 0.251500 ms MarkObjects: 6.117700 ms  DeleteObjects: 1.736400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002885 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 126.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 359ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.134 seconds
+Registering precompiled user dll's ...
+Registered in 0.248373 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 324ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.165 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5044.
+Total: 7.300800 ms (FindLiveObjects: 0.731900 ms CreateObjectMapping: 0.272800 ms MarkObjects: 5.393800 ms  DeleteObjects: 0.901000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.998282 seconds.
+  path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
+  artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            19.664 ms
+	Integration:            1.756 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       26.527 ms
+	Total Operation Time:   47.955 ms
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '1af02560ead178070df9760788b523e1') in 1.929351 seconds
+  Import took 1.973428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.608105 seconds.
+  path: Assets/Playable/Scenes/Test.unity
+  artifactKey: Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/Playable/Scenes/Test.unity using Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            17.772 ms
+	Integration:            20.310 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       34.668 ms
+	Total Operation Time:   72.752 ms
+ -> (target hash: '626426d0962ae749f206daaa86e72a7a') in 0.164811 seconds
+  Import took 0.214388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107917 seconds.
+  path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
+  artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            1.497 ms
+	Integration:            1.137 ms
+	Integration of assets:  0.016 ms
+	Thread Wait Time:       43.554 ms
+	Total Operation Time:   46.204 ms
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.ConvertUIImage.<OnUpdate>b__0_0 (UnityEngine.UI.Image uimage, UnityEngine.RectTransform urc) [0x0000f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:40 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0,T1] (Unity.Entities.EntityQueryBuilder+F_CC`2[T0,T1] action) [0x000d5] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:4170 
+  at Unity.TinyConversion.ConvertUIImage.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:33 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:151)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 40)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '257a30c5246e6e885b111648b45f6063') in 0.258388 seconds
+  Import took 0.295179 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002597 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 173.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 333ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.519 seconds
+Registering precompiled user dll's ...
+Registered in 0.254084 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 337ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.442 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5052.
+Total: 18.650200 ms (FindLiveObjects: 1.056300 ms CreateObjectMapping: 0.500300 ms MarkObjects: 14.469100 ms  DeleteObjects: 2.621500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.006314 seconds.
+  path: Assets/Playable/Scenes/Test.unity
+  artifactKey: Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/Playable/Scenes/Test.unity using Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            13.167 ms
+	Integration:            19.493 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       33.840 ms
+	Total Operation Time:   66.504 ms
+ -> (target hash: '550862dcda18fcf1b9a7142e24511ac5') in 0.142641 seconds
+  Import took 0.210996 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002778 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 300ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.337 seconds
+Registering precompiled user dll's ...
+Registered in 0.225443 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+TypeManager.Initialize took: 372ms
+Mono: successfully reloaded assembly
+- Completed reload, in  3.568 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 5060.
+Total: 7.302500 ms (FindLiveObjects: 0.538300 ms CreateObjectMapping: 0.229200 ms MarkObjects: 5.589300 ms  DeleteObjects: 0.944900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.208301 seconds.
+  path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
+  artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            12.756 ms
+	Integration:            20.961 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       32.002 ms
+	Total Operation Time:   65.723 ms
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.UIImageDeclareAssets.<OnUpdate>b__0_0 (UnityEngine.UI.Image image) [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:19 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0] (Unity.Entities.EntityQueryBuilder+F_C`1[T0] action) [0x000b1] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230 
+  at Unity.TinyConversion.UIImageDeclareAssets.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:14 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:DeclareReferencedObjects(World, GameObjectConversionMappingSystem) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:118)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:147)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 19)
+
+UnassignedReferenceException: The variable m_Sprite of Image has not been assigned.
+You probably need to assign the m_Sprite variable of the Image script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Sprite.get_texture(UnityEngine.Sprite)
+  at Unity.TinyConversion.ConvertUIImage.<OnUpdate>b__0_0 (UnityEngine.UI.Image uimage, UnityEngine.RectTransform urc) [0x0000f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:40 
+  at Unity.Entities.EntityQueryBuilder.ForEach[T0,T1] (Unity.Entities.EntityQueryBuilder+F_CC`2[T0,T1] action) [0x000d5] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:4170 
+  at Unity.TinyConversion.ConvertUIImage.OnUpdate () [0x00000] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.UI.Authoring\ConvertUIImage.cs:33 
+  at Unity.Entities.ComponentSystem.Update () [0x0005f] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114 
+  at Unity.Entities.ComponentSystemGroup.UpdateAllSystems () [0x000c7] in D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+Unity.Entities.Conversion.JournalingUnityLogger:LogException(Exception, Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:50)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+Unity.Debug:LogException(Exception) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\Stubs\Unity\Debug.cs:19)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:477)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:151)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.tiny@0.32.0-preview.54/Unity.Tiny.UI.Authoring/ConvertUIImage.cs Line: 40)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: '4fe8efbaa7332373ffe11b01cc40e08d') in 1.344190 seconds
+  Import took 1.395150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.712309 seconds.
+  path: Assets/Playable/Scenes/Test.unity
+  artifactKey: Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/Playable/Scenes/Test.unity using Guid(3ed123faecd004a4f8cb46f90943df4c) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            2.707 ms
+	Integration:            2.502 ms
+	Integration of assets:  0.041 ms
+	Thread Wait Time:       33.488 ms
+	Total Operation Time:   38.737 ms
+ -> (target hash: 'c7bc4808ead9b0831f348a1a1cbaa7db') in 0.072365 seconds
+  Import took 0.123196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104153 seconds.
+  path: Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings
+  artifactKey: Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings using Guid(589305e5efc44849d65c00e3ada291b3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) Opening scene 'Assets/Playable/Scenes/Test.unity additively'
+Loaded scene 'Assets/Playable/Scenes/Test.unity'
+	Deserialize:            1.645 ms
+	Integration:            2.557 ms
+	Integration of assets:  0.067 ms
+	Thread Wait Time:       45.679 ms
+	Total Operation Time:   49.948 ms
+Exported Asset: 0f9fd9960d4e33f55a3f15a061803a8d = Assets/Playable/Sprites/Ohara.png
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+Unity.Entities.Conversion.JournalingUnityLogger:LogFormat(LogType, Object, String, Object[]) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\JournalingUnityLogger.cs:41)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Unity.Entities.GameObjectConversionSettings:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionSettings.cs:197)
+Unity.Entities.Conversion.GameObjectConversionMappingSystem:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionMappingSystem.cs:954)
+GameObjectConversionSystem:TryCreateAssetExportWriter(Object) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionSystem.cs:327)
+Unity.TinyConversion.ExportTexture2DAsset:<OnUpdate>b__1_0(Texture2D) (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Image2D.Authoring\ConvertTexture2DAsset.cs:100)
+Unity.Entities.EntityQueryBuilder:ForEach(F_C`1) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\EntityQueryBuilder_ForEach.gen.cs:230)
+Unity.TinyConversion.ExportTexture2DAsset:OnUpdate() (at Library\PackageCache\com.unity.tiny@0.32.0-preview.54\Unity.Tiny.Image2D.Authoring\ConvertTexture2DAsset.cs:98)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.ComponentSystemGroup:UpdateAllSystems() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:472)
+Unity.Entities.ComponentSystemGroup:OnUpdate() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystemGroup.cs:417)
+Unity.Entities.ComponentSystem:Update() (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities\ComponentSystem.cs:114)
+Unity.Entities.GameObjectConversionUtility:Convert(World) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:168)
+Unity.Entities.GameObjectConversionUtility:ConvertScene(Scene, GameObjectConversionSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Entities.Hybrid\GameObjectConversion\GameObjectConversionUtility.cs:300)
+Unity.Scenes.Editor.EditorEntityScenes:ConvertAndWriteEntityScene(Scene, GameObjectConversionSettings, List`1, WriteEntitySceneSettings) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\EditorEntityScenes.cs:164)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.entities@0.17.0-preview.41\Unity.Scenes.Editor\SubSceneImporter.cs:144)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+ 
+(Filename: Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities.Hybrid/GameObjectConversion/JournalingUnityLogger.cs Line: 41)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.burst/Runtime/Unity.Burst.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.jobs/Unity.Jobs/Unity.Jobs.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.dots.runtime/Unity.Entities.Runtime/Unity.Entities.Runtime.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.collections/Unity.Collections/Unity.Collections.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Core/Unity.Tiny.Core.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties/Unity.Properties.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Scenes/Unity.Scenes.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering/Unity.Tiny.Rendering.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Particles/Unity.Tiny.Particles.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Input/Unity.Tiny.Input.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Mathematics.Extensions/Unity.Mathematics.Extensions.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Animation/Unity.Tiny.Animation.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Image2D/Unity.Tiny.Image2D.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Text/Unity.Tiny.Text.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.properties/Runtime/Unity.Properties.Reflection/Unity.Properties.Reflection.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.serialization/Runtime/Unity.Serialization/Unity.Serialization.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.RendererExtras/Unity.Tiny.RendererExtras.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.Rendering.Native/Unity.Tiny.Rendering.Native.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny.web/Runtime/Unity.Tiny.Image2D.Web/Unity.Tiny.Image2D.Web.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Entities/Unity.Entities.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.entities/Unity.Transforms/Unity.Transforms.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.platforms/Runtime/Unity.Platforms.Common/Unity.Platforms.Common.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+Import of asset 'Assets/SceneDependencyCache/589305e5efc44849d65c00e3ada291b3.sceneWithBuildSettings' setup artifact dependency to 'Packages/com.unity.tiny/Unity.Tiny.UI/Unity.Tiny.UI.asmdef' but dependency isn't used and therefore not registered in the asset database. 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/AssetVersionBuilder.cpp Line: 430)
+
+ -> (target hash: 'fbe96905302195489007684692824a2e') in 0.539497 seconds
+  Import took 0.563747 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
