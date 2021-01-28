@@ -1,4 +1,4 @@
-[ 75/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/catalog.bin
-[ 76/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
-[177/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
-*** Bee build success (0.45 seconds), 3 items updated, 669 evaluated
+[162/637    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+[241/637    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/catalog.bin
+[342/637    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+*** Bee build success (0.37 seconds), 3 items updated, 657 evaluated
