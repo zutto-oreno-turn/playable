@@ -1,25 +1,4 @@
-[             ] Require frontend run.  tundra_test-emptybuildconfiguration_c4n.dag no longer valid. FileSignature timestamp changed: Test/test-emptybuildconfiguration/export.manifest
-*** buildprogram build success (0.09 seconds), 0 items updated, 13 evaluated
-[       6s] Executed build program. Created build graph with 799 nodes.
-[           0s] Freezing tundra_test-emptybuildconfiguration_c4n.dag.json into .dag (.dag file didn't exist)
-[ 22/489    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
-[ 23/489    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/catalog.bin
-[ 24/489    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/3ed123faecd004a4f8cb46f90943df4c.0.entities
-[ 25/489    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/3ed123faecd004a4f8cb46f90943df4c.entityheader
-[ 77/668    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
-[122/669    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/0f9fd9960d4e33f55a3f15a061803a8d
-[BUSY       6s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-win (+1 other)
-[BUSY      11s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win_ef40/.StevedoreVersion (+1 other)
-[BUSY      16s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-win (+1 other)
-[BUSY      21s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win_ef40/.StevedoreVersion (+1 other)
-[BUSY      26s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-win (+1 other)
-[BUSY      31s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win_ef40/.StevedoreVersion (+1 other)
-[214/669   32s] Download and unpack artifacts/Stevedore/bgfx-source_04d5/.StevedoreVersion (+1 other)
-[BUSY      38s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-win (+1 other)
-[BUSY      43s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win_ef40/.StevedoreVersion (+1 other)
-[215/669   44s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_node-win-x64 (+1 other)
-[217/669   48s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-win_ef40/.StevedoreVersion (+1 other)
-[218/669   49s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-win (+1 other)
-[BUSY      54s] Download and unpack artifacts/Stevedore/winpython2-x64_740e/.StevedoreVersion (+1 other)
-[219/669   61s] Download and unpack artifacts/Stevedore/winpython2-x64_740e/.StevedoreVersion (+1 other)
-*** Bee build success (62.01 seconds - 0:01:02), 11 items updated, 669 evaluated
+[ 75/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/catalog.bin
+[ 76/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+[177/491    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+*** Bee build success (0.45 seconds), 3 items updated, 669 evaluated
