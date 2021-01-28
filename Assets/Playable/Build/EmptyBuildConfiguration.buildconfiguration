@@ -30,7 +30,7 @@
             },
             "RenderGraphMode": 1,
             "MaxResolution": 2048,
-            "AutoResizeFrame": false,
+            "AutoResizeFrame": true,
             "DisableVsync": false,
             "GPUSkinning": false
         },
@@ -71,7 +71,7 @@
         },
         {
             "$type": "Unity.Build.Web.DotsRuntime.WasmOutputSettings, Unity.Build.Web.DotsRuntime",
-            "OutputSingleHTMLFile": false,
+            "OutputSingleHTMLFile": true,
             "MinifyHTMLFile": true,
             "MinifyOutputWithClosure": false,
             "EmbedCpuProfiler": false,

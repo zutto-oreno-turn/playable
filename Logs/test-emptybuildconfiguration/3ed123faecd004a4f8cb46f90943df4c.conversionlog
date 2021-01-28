@@ -3,7 +3,9 @@ Log: Exported Asset: 0aebc0899f45cef9177bfc554677e940 = Assets/Playable/Sprites/
 Log: Exported Asset: 0f9fd9960d4e33f55a3f15a061803a8d = Assets/Playable/Sprites/Ohara.png
 Log: ::Exported Types (by stable hash)::
 Log: 0x08619644eddfbee9 -     603929047837163241 - RotateComponent
+Log: 0x9225a4b002d710ea -   10531004379544621290 - Unity.Entities.Disabled
 Log: 0xa42de7cc0763e5be -   11830366659655493054 - Unity.Transforms.Translation
+Log: 0xbea79ca45e4be521 -   13738121418087589153 - Unity.Entities.LinkedEntityGroup
 Log: 0x64d23646f9e3c6d8 -    7264928827370096344 - Unity.Tiny.Rendering.CameraSettings2D
 Log: 0xa466b7c9c19e31f1 -   11846357947009348081 - Unity.Entities.SceneSection
 Log: 0x4d1afe3de83f2462 -    5556032632157840482 - Unity.Transforms.LocalToParent
