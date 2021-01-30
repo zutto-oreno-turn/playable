@@ -21,12 +21,12 @@
         {
             "$type": "Unity.Tiny.Rendering.Settings.TinyRenderingSettings, Unity.Tiny.Rendering.Authoring",
             "WindowSize": {
-                "x": 990,
-                "y": 247
+                "x": 768,
+                "y": 432
             },
             "RenderResolution": {
-                "x": 990,
-                "y": 247
+                "x": 768,
+                "y": 432
             },
             "RenderGraphMode": 1,
             "MaxResolution": 2048,

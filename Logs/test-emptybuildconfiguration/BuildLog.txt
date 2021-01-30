@@ -1,7 +1,11 @@
+[             ] Require frontend run.  tundra_test-emptybuildconfiguration_c4n.dag no longer valid. FileSignature timestamp changed: Test/test-emptybuildconfiguration/export.manifest
+*** buildprogram build success (0.15 seconds), 0 items updated, 13 evaluated
+[       7s] Executed build program. Created build graph with 777 nodes.
+[           0s] Freezing tundra_test-emptybuildconfiguration_c4n.dag.json into .dag (.dag file didn't exist)
 [643/647    0s] Package Shell File Test/test-emptybuildconfiguration/WebTemplate/tiny_shell.html
 D:\Github.com\zutto-oreno-turn\playable\Library\DotsRuntimeBuild\artifacts\Stevedore\node-win-x64\node.exe,D:\Github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.dots.runtime@0.32.0-preview.54\LowLevelSupport~\WebSupport\package_shell_file.js,--outputHtml,Test/test-emptybuildconfiguration/WebTemplate/tiny_shell.html,--inputShellHtml,D:/Github.com/zutto-oreno-turn/playable/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/LowLevelSupport~/WebSupport/WebTemplates/Default/tiny_shell.html,--inputShellJs,D:/Github.com/zutto-oreno-turn/playable/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/LowLevelSupport~/WebSupport/tiny_shell.js,--assetRootDirectory,Test/test-emptybuildconfiguration,--assetManifest,Test/test-emptybuildconfiguration/export.manifest
 [BUSY       6s] Link_WebGL_wasm artifacts/Test/test-emptybuildconfiguration/Test.html
-[644/647   11s] Link_WebGL_wasm artifacts/Test/test-emptybuildconfiguration/Test.html
+[644/647   12s] Link_WebGL_wasm artifacts/Test/test-emptybuildconfiguration/Test.html
 emcc:WARNING: --llvm-lto ignored when using llvm backend
 [645/647    0s] CopyTool ../../Builds/test-emptybuildconfiguration/Test.html
-*** Bee build success (12.59 seconds), 3 items updated, 647 evaluated
+*** Bee build success (13.13 seconds), 3 items updated, 647 evaluated
