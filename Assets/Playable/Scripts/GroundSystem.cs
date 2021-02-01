@@ -3,6 +3,7 @@ using Unity.Mathematics;
 using Unity.Tiny;
 using Unity.Tiny.Input;
 using Unity.Transforms;
+using Unity.Tiny.UI;
 
 public class GroundSystem : SystemBase
 {
@@ -38,49 +39,33 @@ public class GroundSystem : SystemBase
 
     void Play()
     {
-        UnityEngine.Debug.Log("GroundSystem#Play 1");
+        InputSystem input = World.GetOrCreateSystem<InputSystem>();
+        float2 vector = new float2(0.0f, 0.0f);
 
-        var inputAxis = new float2(0, 0);
-        var input = World.GetOrCreateSystem<InputSystem>();
-        if (input.GetKey(KeyCode.UpArrow))
+        if (input.GetKey(KeyCode.W) || input.GetKey(KeyCode.UpArrow))
         {
             UnityEngine.Debug.Log($"GroundSystem#Play Up");
+            vector = new float2(0.0f, -2.0f);
         }
-        if (input.GetKey(KeyCode.DownArrow))
+        if (input.GetKey(KeyCode.S) || input.GetKey(KeyCode.DownArrow))
         {
             UnityEngine.Debug.Log($"GroundSystem#Play Down");
+            vector = new float2(0.0f, 2.0f);
         }
-        if (input.GetKey(KeyCode.LeftArrow))
+        if (input.GetKey(KeyCode.A) || input.GetKey(KeyCode.LeftArrow))
         {
             UnityEngine.Debug.Log($"GroundSystem#Play Left");
+            vector = new float2(2.0f, 0.0f);
         }
-        if (input.GetKey(KeyCode.RightArrow))
+        if (input.GetKey(KeyCode.D) || input.GetKey(KeyCode.RightArrow))
         {
             UnityEngine.Debug.Log($"GroundSystem#Play Right");
+            vector = new float2(-2.0f, 0.0f);
         }
 
-        Entities.ForEach((ref GroundComponent ground, ref Translation translation) =>
+        Entities.ForEach((ref GroundComponent ground, ref RectTransform rect) =>
         {
-            UnityEngine.Debug.Log($"GroundSystem#Play speed: {ground.Speed}, value: {translation.Value}");
-
-            // var oldPosition = translation.Value;
-            // var newPosition = translation.Value +
-            //     new float3(0,
-            //     playerInput.InputAxis.y * player.Speed,
-            //     -playerInput.InputAxis.x * player.Speed);
-            // translation.Value = new float3(newPosition.x,
-            //     // Clamp the player position to avoid going off screen
-            //     math.clamp(newPosition.y, player.VerticalLimit.y, player.VerticalLimit.x),
-            //     math.clamp(newPosition.z, player.HorizontalLimit.y, player.HorizontalLimit.x));
-            // //Update Seahorse Player direction (rotationY) only if moved on Z
-            // var MoveDirection = oldPosition.z - newPosition.z;
-            // if (MoveDirection != 0)
-            // {
-            //     var rotateAmount = 0f;
-            //     // If direction < 0 moving left (0) else right (180)
-            //     rotateAmount = (MoveDirection < 0) ? 0f : 180f;
-            //     rotation.Value = quaternion.RotateY(math.radians(rotateAmount));
-            // }
+            rect.AnchoredPosition = new float2(rect.AnchoredPosition.x + vector.x, rect.AnchoredPosition.y + vector.y);
         }).ScheduleParallel();
     }
 }
