@@ -52,19 +52,19 @@ public class PlayerSystem : SystemBase
 
         if (input.GetKey(KeyCode.W) || input.GetKey(KeyCode.UpArrow))
         {
-            UnityEngine.Debug.Log($"PlayerSystem#Play Up");
+            UnityEngine.Debug.Log($"PlayerSystem#Play Up 2");
         }
         if (input.GetKey(KeyCode.S) || input.GetKey(KeyCode.DownArrow))
         {
-            UnityEngine.Debug.Log($"PlayerSystem#Play Down");
+            UnityEngine.Debug.Log($"PlayerSystem#Play Down 2");
         }
         if (input.GetKey(KeyCode.A) || input.GetKey(KeyCode.LeftArrow))
         {
-            UnityEngine.Debug.Log($"PlayerSystem#Play Left");
+            UnityEngine.Debug.Log($"PlayerSystem#Play Left 2");
         }
         if (input.GetKey(KeyCode.D) || input.GetKey(KeyCode.RightArrow))
         {
-            UnityEngine.Debug.Log($"PlayerSystem#Play Right");
+            UnityEngine.Debug.Log($"PlayerSystem#Play Right 2");
         }
 
     //     Entities.ForEach((ref PlayerComponent player, ref RectTransform rect) =>
