@@ -1,5 +1,5 @@
 ::Exported Scenes::
-3ed123faecd004a4f8cb46f90943df4c = Assets/Playable/Scenes/Test.unity
+3ed123faecd004a4f8cb46f90943df4c = Assets/Playable/Scenes/Main.unity
 46b433b264c69cbd39f04ad2e5d12be8 = Configuration
 
 

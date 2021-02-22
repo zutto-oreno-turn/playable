@@ -53,22 +53,22 @@ public class GroundSystem : SystemBase
 
         if (input.GetKey(KeyCode.W) || input.GetKey(KeyCode.UpArrow))
         {
-            UnityEngine.Debug.Log($"GroundSystem#Play Up");
+            UnityEngine.Debug.Log($"GroundSystem#Play Up 3");
             vector = new float2(0.0f, -2.0f);
         }
         if (input.GetKey(KeyCode.S) || input.GetKey(KeyCode.DownArrow))
         {
-            UnityEngine.Debug.Log($"GroundSystem#Play Down");
+            UnityEngine.Debug.Log($"GroundSystem#Play Down 3");
             vector = new float2(0.0f, 2.0f);
         }
         if (input.GetKey(KeyCode.A) || input.GetKey(KeyCode.LeftArrow))
         {
-            UnityEngine.Debug.Log($"GroundSystem#Play Left");
+            UnityEngine.Debug.Log($"GroundSystem#Play Left 3");
             vector = new float2(2.0f, 0.0f);
         }
         if (input.GetKey(KeyCode.D) || input.GetKey(KeyCode.RightArrow))
         {
-            UnityEngine.Debug.Log($"GroundSystem#Play Right");
+            UnityEngine.Debug.Log($"GroundSystem#Play Right 3");
             vector = new float2(-2.0f, 0.0f);
         }
 
