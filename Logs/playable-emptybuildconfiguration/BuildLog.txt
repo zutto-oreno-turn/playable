@@ -1,7 +1,145 @@
-[657/661    0s] Package Shell File Playable/playable-emptybuildconfiguration/WebTemplate/tiny_shell.html
+[             ] Require frontend run.  tundra_playable-emptybuildconfiguration_sfh.dag no longer valid. FileSignature timestamp changed: ../../Assets/Playable/Playable.asmdef
+*** buildprogram build success (0.10 seconds), 0 items updated, 13 evaluated
+[       9s] Executed build program. Created build graph with 797 nodes.
+[           0s] Freezing tundra_playable-emptybuildconfiguration_sfh.dag.json into .dag (.dag file didn't exist)
+[ 72/647    0s] WriteResponseFile artifacts/rsp/15260324392632801353.rsp
+[ 74/647    0s] WriteResponseFile artifacts/rsp/6713500737500865673.rsp
+[ 83/647    0s] WriteResponseFile artifacts/rsp/17411165329284093330.rsp
+[519/667    0s] Package Shell File Playable/playable-emptybuildconfiguration/WebTemplate/tiny_shell.html
 C:\Users\koiyamam\Documents\GitHub\github.com\zutto-oreno-turn\playable\Library\DotsRuntimeBuild\artifacts\Stevedore\node-win-x64\node.exe,C:\Users\koiyamam\Documents\GitHub\github.com\zutto-oreno-turn\playable\Library\PackageCache\com.unity.dots.runtime@0.32.0-preview.54\LowLevelSupport~\WebSupport\package_shell_file.js,--outputHtml,Playable/playable-emptybuildconfiguration/WebTemplate/tiny_shell.html,--inputShellHtml,C:/Users/koiyamam/Documents/GitHub/github.com/zutto-oreno-turn/playable/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/LowLevelSupport~/WebSupport/WebTemplates/Default/tiny_shell.html,--inputShellJs,C:/Users/koiyamam/Documents/GitHub/github.com/zutto-oreno-turn/playable/Library/PackageCache/com.unity.dots.runtime@0.32.0-preview.54/LowLevelSupport~/WebSupport/tiny_shell.js,--assetRootDirectory,Playable/playable-emptybuildconfiguration,--assetManifest,Playable/playable-emptybuildconfiguration/export.manifest
+[520/667    1s] Csc artifacts/Unity.Tiny.2D.dll/playable-emptybuildconfiguration/Unity.Tiny.2D.dll (+2 others)
+[521/667    0s] Csc artifacts/Unity.Tiny.2D.Native.dll/playable-emptybuildconfiguration/Unity.Tiny.2D.Native.dll (+2 others)
+[522/667    0s] Csc artifacts/Playable.dll/playable-emptybuildconfiguration/Playable.dll (+2 others)
+[523/667    1s] ILPostProcessorRunner artifacts/Playable/playable-emptybuildconfiguration/post_ilprocessing/Unity.Tiny.2D.dll (+pdb)
+[524/667    1s] ILPostProcessorRunner artifacts/Playable/playable-emptybuildconfiguration/post_ilprocessing/Unity.Tiny.2D.Native.dll (+pdb)
+[525/667    1s] ILPostProcessorRunner artifacts/Playable/playable-emptybuildconfiguration/post_ilprocessing/Playable.dll (+pdb)
+[526/667    2s] TypeRegGen artifacts/Playable/playable-emptybuildconfiguration/post_typereg/Playable.dll (+74 others)
+[527/667    4s] UnityLinker artifacts/Playable/playable-emptybuildconfiguration_stripped/Playable.dll (+74 others)
+[BUSY       6s] Il2Cpp artifacts/Playable/playable-emptybuildconfiguration_stripped/il2cpp-src
+[528/667    8s] Il2Cpp artifacts/Playable/playable-emptybuildconfiguration_stripped/il2cpp-src
+[           0s] Destroying Roslyn Shared Compiler Server
+*** Bee requires additional run (21.48 seconds), 13 items updated, 667 evaluated
+*** buildprogram build success (0.09 seconds), 0 items updated, 13 evaluated
+[       7s] Executed build program. Created build graph with 801 nodes.
+[           0s] Freezing tundra_playable-emptybuildconfiguration_sfh.dag.json into .dag (Timestamp of .json > .dag)
+[           0s] Delete 13 artifact files that are no longer in use. (like artifacts\Stevedore-ExternalUnpack\artifacts_Stevedore_emscripten-win)
+[ 32/619    0s] WriteResponseFile artifacts/rsp/15019248054540863604.rsp
+[525/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Burst.o
+[526/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods11.o
+[527/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Playable.o
+[533/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Input.o
+[534/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions18.o
+[535/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions12.o
+[537/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/StaticConstructors.o
+[538/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Image2D.o
+[539/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Transforms1.o
+[542/671    9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Transforms.o
+[543/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics.o
+[544/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering.Native3.o
+[545/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Mathematics.o
+[547/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/mscorlib.o
+[548/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.UnityInstance.o
+[549/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions19.o
+[550/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions13.o
+[551/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Collections.o
+[552/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics7.o
+[553/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions17.o
+[554/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics5.o
+[BUSY       9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics2.o
+[555/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics8.o
+[556/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics4.o
+[557/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics9.o
+[558/671   18s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics2.o
+[559/671   17s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics1.o
+[560/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/TinyTypes.o
+[561/671   24s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions3.o
+[562/671   35s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods10.o
+[564/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics6.o
+[566/671   23s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics3.o
+[567/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering.Native.o
+[568/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions23.o
+[569/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions22.o
+[570/671    9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering3.o
+[571/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Input.Web.o
+[573/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering1.o
+[574/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/StaticInitialization.o
+[576/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.2D_StaticConstructors.o
+[577/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions20.o
+[578/671   14s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering.Native1.o
+[582/671   15s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering2.o
+[583/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Mathematics.Extensions.o
+[584/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics_StaticConstructors.o
+[585/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering.o
+[586/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.2D.Native.o
+[587/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions11.o
+[588/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.RendererExtras.o
+[589/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Scenes.o
+[590/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Jobs.o
+[591/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics13.o
+[592/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics14.o
+[593/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics12.o
+[594/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics23.o
+[595/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics11.o
+[596/671    9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics20.o
+[597/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics21.o
+[598/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics15.o
+[599/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions8.o
+[600/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics18.o
+[601/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics16.o
+[602/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics17.o
+[603/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics22.o
+[604/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics19.o
+[605/671    9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Generics10.o
+[606/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.UI1.o
+[607/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/StringLiterals.o
+[608/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions1.o
+[609/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.LowLevel.o
+[610/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Web.o
+[611/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions9.o
+[613/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions7.o
+[614/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions16.o
+[615/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Rendering.Native2.o
+[618/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.ZeroJobs.o
+[620/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions5.o
+[621/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods.o
+[622/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions6.o
+[623/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.IO.o
+[624/671    9s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities.o
+[625/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.2D.o
+[626/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions21.o
+[630/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities.Runtime.o
+[637/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Image2D.Web.o
+[638/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Platforms.Common.o
+[639/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions10.o
+[640/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions15.o
+[641/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.2D.Native_StaticConstructors.o
+[643/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Text.Native.o
+[644/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Runtime.EntryPoint.o
+[645/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Platforms.RunLoop.o
+[646/671    2s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Burst.o
+[647/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.UI.o
+[648/671    5s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions.o
+[649/671    4s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions14.o
+[650/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Text.o
+[651/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods6.o
+[652/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions2.o
+[653/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods7.o
+[654/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/TinyMethods.o
+[655/671   13s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods2.o
+[656/671   10s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities3.o
+[657/671   16s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods8.o
+[658/671    8s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities2.o
+[659/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Tiny.Core.o
+[660/671   14s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods5.o
+[661/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities1.o
+[662/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods3.o
+[663/671    3s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Il2CppGenericComDefinitions4.o
+[664/671   11s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods4.o
+[665/671    7s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/Unity.Entities4.o
+[666/671    6s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods1.o
+[667/671   16s] C_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/vk4m/GenericMethods9.o
 [BUSY       6s] Link_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/Playable.html
-[658/661   11s] Link_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/Playable.html
+[668/671   15s] Link_WebGL_wasm artifacts/Playable/playable-emptybuildconfiguration/Playable.html
 emcc:WARNING: --llvm-lto ignored when using llvm backend
-[659/661    0s] CopyTool ../../Builds/playable-emptybuildconfiguration/Playable.html
-*** Bee build success (11.87 seconds), 3 items updated, 661 evaluated
+[669/671    0s] CopyTool ../../Builds/playable-emptybuildconfiguration/Playable.html
+*** Bee build success (125.46 seconds - 0:02:05), 116 items updated, 671 evaluated

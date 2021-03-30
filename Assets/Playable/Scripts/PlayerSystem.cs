@@ -23,7 +23,6 @@ public class PlayerSystem : SystemBase
 
     protected override void OnUpdate()
     {
-        // UnityEngine.Debug.Log($"PlayerSystem#OnUpdate");
         Play();
         // switch (State)
         // {
