@@ -21,15 +21,15 @@
         {
             "$type": "Unity.Tiny.Rendering.Settings.TinyRenderingSettings, Unity.Tiny.Rendering.Authoring",
             "WindowSize": {
-                "x": 768,
-                "y": 432
+                "x": 4096,
+                "y": 2048
             },
             "RenderResolution": {
-                "x": 768,
-                "y": 432
+                "x": 4096,
+                "y": 2048
             },
             "RenderGraphMode": 1,
-            "MaxResolution": 2048,
+            "MaxResolution": 4096,
             "AutoResizeFrame": true,
             "DisableVsync": false,
             "GPUSkinning": false
